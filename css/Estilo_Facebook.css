@@ -1,0 +1,156 @@
+body{
+    background-color :  rgb(211, 216, 232);
+	overflow-y: scroll;
+}
+
+header{
+	background-color: rgb(54, 88, 153);
+	color: white;
+	padding-top: 25px;
+	min-width: 40.625em; 
+	min-height: 50px;
+	border-bottom: rgb(54, 88, 153) 15px solid;
+
+}
+#Correo_etiqueta{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	position: absolute; top: 27px; right:  470px;
+	box-sizing: border-box
+}
+#contrasena_caja{
+	display: inline-block;
+	position: absolute; top: 50px; right:  300px;
+	margin: 0;
+	width: 142px;
+	
+}
+#contrasena_etiqueta{
+	position: absolute; top: 30px; right:  380px;
+	font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+	box-sizing: border-box
+}
+#correo_caja{
+	position: absolute; top: 50px; right:  480px;
+	margin: 0;
+	width: 142px;
+}
+#boton_iniciar{
+background-color: #4267b2;
+border-color: #29487d;
+	color:#fff;
+	border-radius: 2px;
+cursor: pointer;
+display: inline-block;
+font-size: 12px;
+font-weight: bold;
+	position: absolute; top: 50px; right:  180px;
+	
+}
+#oldistes_etiqueta{
+	position: absolute; top: 73px; right:  250px;
+	font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+}
+
+
+#logo{
+	display: inline-block;
+	width:220px;
+	position: absolute; top: 10px; left:150px;
+	background-size: auto;
+
+}
+#mensaje{
+position: absolute; top: 100px; left:150px;
+color: #0e385f;
+font-size: 20px;
+font-weight: bold;
+line-height: 29px;
+margin-top: 40px;
+width: 450px;
+word-spacing: -1px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo2{
+	
+	width:420px;
+	/*height: 200px;*/
+	position: absolute; top: 200px; left:150px;
+
+}
+/* para configurar elcuadro donde se encuentra las cajas de texto*/
+.testbox {
+  margin: 180px auto;
+  width: 550px; 
+  height: 250px; 
+  border-radius: 8px/7px; 
+  background-color: #white; 
+  border: solid 1px #white;
+  position: absolute; top: -80px; right:50px;
+}
+
+
+#name{
+  width: 200px; 
+  height: 39px; 
+  background-color: #fff; 
+  border: solid 1px #cbc9c9;
+  margin-left: 10px;
+  margin-top: 13px; 
+  padding-left: 10px;
+}
+
+input[type=password]{
+  margin-bottom: 25px;
+}
+#caja_correo_celular, #caja_contrasena_nueva{
+	width: 437px;
+	height: 39px; 
+	border: solid 1px #cbc9c9;
+  margin-left: 10px;
+  margin-top: 13px; 
+}
+#check{
+	 position: absolute; top: 310px; left:8px; 
+	cursor:pointer;
+	
+}
+#l{
+	position: absolute; top: 255px; left:8px;
+	font-size: 22px;
+	font-style: bold;
+}
+#radio_buton{
+	position: absolute; top: 345px; left:3px;
+	font-size: 22px;
+	font-style: bold;
+}
+a{
+	color: #365899;
+	font-size: 11px;
+	cursor: pointer;
+	max-width: 150px;
+}
+#button{
+background-color: #69a74e;
+border-color: #3b6e22 #3b6e22 #2c5115;
+color: #fff;
+cursor: pointer;
+font-size: 25px;
+border: 1px solid;
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+position: absolute; top: 480px; left:3px;
+font-family: inherit;
+
+}
+.texto{
+	position: absolute; top: 640px; right:240px;
+	font-size:16px;
+}
